@@ -1,15 +1,15 @@
 ﻿<dx:ThemedWindow x:Class="DXSample26.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
-        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
-        xmlns:dxSample26="clr-namespace:DXSample26"
-        mc:Ignorable="d" 
-        d:DataContext="{d:DesignInstance dxSample26:MainViewModel}"
-        Title="MainWindow" Height="350" Width="525">
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+                xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+                xmlns:dxSample26="clr-namespace:DXSample26"
+                mc:Ignorable="d" 
+                d:DataContext="{d:DesignInstance dxSample26:MainViewModel}"
+                Title="MainWindow" Height="350" Width="525">
     <DockPanel>
         <Grid DockPanel.Dock="Bottom">
             <Grid.ColumnDefinitions>
